@@ -35,6 +35,22 @@ body{
     margin-top: 20px;
 }
 
+#lastName{
+    margin-top: 20px;
+}
+
+#email{
+    margin-top: 20px;
+}
+
 #password{
     margin-top: 20px;
+}
+
+#repeatPassword{
+    margin-top: 20px;
+}
+
+input{
+    padding: 5px;
 }

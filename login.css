@@ -38,3 +38,7 @@ body{
 #password{
     margin-top: 20px;
 }
+
+input{
+    padding: 5px;
+}
