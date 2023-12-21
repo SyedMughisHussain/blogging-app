@@ -51,3 +51,48 @@ body{
 .logout-btn{
     cursor: pointer;
 }
+
+.blogs{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 260px;
+}
+
+.blog-cont{
+    margin-top: 15px;
+    height: fit-content;
+    width: 60%;
+    margin-left: 260px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.profileImage{
+    height: 50px;
+    width: 50px;
+}
+
+.first{
+    display: flex;
+    width: 60%;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#edit-btn{
+    color: rgb(13, 110, 253);
+    background-color: white;
+    border: none;
+}
+#delete-btn{
+    color: rgb(13, 110, 253);
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+}
