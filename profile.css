@@ -12,3 +12,41 @@ body{
     font-weight: bold;
     font-size: 30px;
 }
+
+.container{
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+#image{
+    height: 200px;
+    /* width: 300px; */
+    border-radius: 20px;
+}
+
+#newPassword{
+    margin-top: 5px;
+}
+#repeatPassword{
+    margin-top: 5px;
+}
+
+.userName{
+    margin-right: 30px;
+}
+
+#update-btn{
+    background-color: rgb(13, 110, 253);
+    color: white;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.logout-btn{
+    cursor: pointer;
+}

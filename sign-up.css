@@ -31,7 +31,7 @@ body{
     padding: 5px;
     font-weight: bold;
     border-radius: 5px;
-    margin-left: 55px;
+    margin-left: 100px;
     margin-top: 20px;
 }
 
@@ -53,4 +53,8 @@ body{
 
 input{
     padding: 5px;
+}
+
+#file{
+    margin-top: 15px;
 }
