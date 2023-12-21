@@ -32,6 +32,7 @@ onAuthStateChanged(auth, async (user) => {
         console.log(doc.data().firstName + ' ' + doc.data().lastName);
         console.log(doc.id, " => ", doc.data());
         userObj = doc.data();
+        render(doc)
       });
     } else {
       window.location = "login.html";
