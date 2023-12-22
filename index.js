@@ -37,7 +37,7 @@ onAuthStateChanged(auth, async (user) => {
     });
     renderBlogs(user.uid);
   } else {
-    window.location = "home.html";
+    window.location = "homePage.html";
   }
 });
 
