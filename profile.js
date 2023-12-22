@@ -49,7 +49,7 @@ function render(doc) {
 
 logout_btn.addEventListener('click', () => {
     signOut(auth).then(() => {
-        window.location = 'login.html'
+        window.location = 'homePage.html'
     }).catch((error) => {
         console.log(error);
     });
