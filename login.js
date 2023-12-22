@@ -13,7 +13,7 @@ form.addEventListener("submit", (event) => {
     const user = userCredential.user;
     console.log(user.email);
     console.log(user.uid);
-    window.location = "./index.html";
+    window.location = "./home.html";
   })
   .catch((error) => {
     const errorCode = error.code;

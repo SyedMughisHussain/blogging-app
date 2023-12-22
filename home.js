@@ -37,7 +37,7 @@ onAuthStateChanged(auth, async (user) => {
     });
     renderBlogs(user.uid);
   } else {
-    window.location = "login.html";
+    window.location = "index.html";
   }
 });
 
@@ -51,7 +51,7 @@ function renderBlog() {
     blogs_container.innerHTML += `
     <div class="blog-cont">
             <div class="first">
-                <img src="${blog.userObj.profileUrl}" height="100" width="150" id="profileImage" alt="User Image">
+                <img src="${blog.userObj.profileUrl}" height="70" width="100" id="profileImage" alt="User Image">
                 <p class="title">${blog.title}</p>
             </div>
             <p>${blog.discription}</p>
