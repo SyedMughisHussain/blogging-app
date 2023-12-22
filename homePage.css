@@ -54,7 +54,7 @@ body{
 
 .blogs{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 10px;
     margin-left: 260px;
 }
@@ -85,14 +85,8 @@ body{
     margin-left: 10px;
 }
 
-#edit-btn{
+.btn{
     color: rgb(13, 110, 253);
     background-color: white;
     border: none;
-}
-#delete-btn{
-    color: rgb(13, 110, 253);
-    background-color: white;
-    border: none;
-    margin-left: 10px;
 }
