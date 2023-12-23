@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(248, 249, 250)
+}
+
+.login{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    width: 60%;   
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+}
+
+#placeholder{
+    width: 100%;
+    padding: 10px;
+}
+
+#textArea{
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+#submit{
+    background-color: rgb(13, 110, 253);
+    color: white;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.userName{
+    margin-right: 20px;
+}
+
+.logout-btn{
+    cursor: pointer;
+}
+
+.blogs{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 260px;
+}
+
+.blog-cont{
+    margin-top: 15px;
+    height: fit-content;
+    width: 60%;
+    margin-left: 260px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.profileImage{
+    height: 50px;
+    width: 50px;
+}
+
+.first{
+    display: flex;
+    width: 60%;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.btn{
+    color: rgb(13, 110, 253);
+    background-color: white;
+    border: none;
+}
