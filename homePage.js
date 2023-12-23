@@ -30,12 +30,12 @@ let blogs = [];
                   <p class="title">${blog.title}</p>
               </div>
               <p>${blog.discription}</p>
-              <button class="btn-seeAll">See all from this user</button>
+              <button class="seeAll">See all from this user</button>
           </div>
       `;
     });
 
-    const btn_seeAll = document.querySelectorAll('.btn-seeAll');
+    const btn_seeAll = document.querySelectorAll('.seeAll');
     btn_seeAll.forEach((button)=>{
       button.addEventListener('click', ()=> {
         window.location = 'seeAllBlogs.html';
