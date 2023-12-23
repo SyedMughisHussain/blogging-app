@@ -1,8 +1,5 @@
 import { auth, db } from "./config.js";
 import {
-    onAuthStateChanged,
-  } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
-import {
     collection,
     getDocs,
   } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
@@ -10,15 +7,6 @@ import {
 const blogs_container = document.querySelector(".blogs-container");
 
 let blogs = [];
-
-// onAuthStateChanged(auth,(user) => {
-//     if (user) {
-//       console.log(user.uid);
-//       window.location = "home.html";
-//     } else {
-//     }
-//   });
-
 
   function renderBlog() {
     blogs_container.innerHTML = "";
@@ -36,8 +24,10 @@ let blogs = [];
     });
 
     const btn_seeAll = document.querySelectorAll('.seeAll');
-    btn_seeAll.forEach((button)=>{
+    btn_seeAll.forEach((button, index)=>{
       button.addEventListener('click', ()=> {
+        console.log(blogs[index].userObj.uid);
+        localStorage.setItem('uid', blogs[index].userObj.uid);
         window.location = 'seeAllBlogs.html';
       });
     });
