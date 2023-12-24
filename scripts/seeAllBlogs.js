@@ -1,4 +1,4 @@
-import { auth, db } from "./config.js";
+import { auth, db } from "../config.js";
 import {
     collection,
     getDocs,
