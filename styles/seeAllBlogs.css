@@ -96,3 +96,28 @@ a{
     color: rgb(13, 110, 253);
     cursor: pointer;
 }
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.blogs-container{
+    width: fit-content;
+}
+
+.userDetail{
+margin-right: 50px;
+}
+
+.username{
+    color: rgb(13, 110, 253);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.userImage{
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+}
