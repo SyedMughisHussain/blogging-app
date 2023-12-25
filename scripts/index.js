@@ -51,7 +51,7 @@ function renderBlog() {
     blogs_container.innerHTML += `
     <div class="blog-cont">
             <div class="first">
-                <img src="${blog.userObj.profileUrl}" height="70" width="100" id="profileImage" alt="User Image">
+                <img src="${blog.userObj.profileUrl}" height="70" width="80" id="profileImage" alt="User Image">
                 <p class="title">${blog.title}</p>
             </div>
             <p>${blog.discription}</p>

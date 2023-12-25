@@ -69,9 +69,8 @@ body{
     border-radius: 10px;
 }
 
-.profileImage{
-    height: 50px;
-    width: 50px;
+img{
+    border-radius: 10px;
 }
 
 .first{
@@ -85,8 +84,17 @@ body{
     margin-left: 10px;
 }
 
+.time{
+    margin-left: 10px;
+    font-size: small;
+}
+
 .seeAll{
     color: rgb(13, 110, 253);
     background-color: white;
     border: none;
+}
+
+.title-date{
+    display: block; 
 }

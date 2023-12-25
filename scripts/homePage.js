@@ -14,8 +14,11 @@ function renderBlog() {
     blogs_container.innerHTML += `
       <div class="blog-cont">
               <div class="first">
-                  <img src="${blog.userObj.profileUrl}" height="100" width="150" id="profileImage" alt="User Image">
-                  <p class="title">${blog.title}</p>
+                  <img src="${blog.userObj.profileUrl}" height="70" width="80" id="profileImage" alt="User Image">
+                  <div class="title-date">
+                    <span class="title">${blog.title}</span>
+                    <span class="time">${blog.time}</span>
+                  </div>
               </div>
               <p>${blog.discription}</p>
               <button class="seeAll">See all from this user</button>
